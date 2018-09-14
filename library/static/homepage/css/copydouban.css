@@ -1,0 +1,75 @@
+div{display: block;margin: 0;padding: 0;}
+address, caption, cite, code, dfn, em, i, strong, th, var, optgroup{font-style: normal;font-weight: normal;}
+
+#wrapper{width:1040px;margin:0 auto;padding:0;}
+#content{min-height:420px;margin:0;padding:0;}
+html h2{font-size: 26px;}
+h2{word-wrap: break-word;display: block;font-size: 25px;font-weight: bold;color: #494949;margin: 0;padding: 0 0 15px 0;
+	line-height: 1.1;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;}
+.article{width:675px;float:left;padding-right:40px;}
+.grid_view{border-top:1px dashed #ccc;padding-left:0;list-style:none;padding:0 0 0 20px;}
+.grid_view li{display: list-item;overflow: hidden;list-style: none;border-bottom: 1px dashed #ccc;padding: 12px 0;}
+.grid_view .pic{color: #bbb;float: left;padding-right: 25px;}
+.grid_view .pic em{float:left;padding:0 10px;}
+a:visited{color: #666699;text-decoration: none;}
+a:link{color: #37a;text-decoration: none;}
+a img{border-width: 0;vertical-align: middle;}
+img{max-width: 100%;}
+.grid_view .info{overflow:hidden;zoom:1;}
+.grid_view .info a:visited span{color: #669;}
+.grid_view .info a:link span{color: #369;}
+.grid_view .info .title{font: 14px/150% Arial,Helvetica,sans-serif;}
+.grid_view .info .other{font: 14px/150% Arial,Helvetica,sans-serif;}
+.item .playable{font-size:13px;padding-left:3px;color:#00A65F;}
+.info p{margin:10px 0;color:#666;}
+p{display:block;}
+.star span{color: #666}
+.rating1-t, .rating15-t, .rating2-t, .rating25-t, .rating3-t, .rating35-t, .rating4-t, .rating45-t, .rating5-t, .rating-t{padding-left: 5px;}
+.rating5-t{background-position:0 0px;}
+.allstar50, .allstar45, .allstar40, .allstar35, .allstar30, .allstar25, .allstar20, .allstar15, .allstar10, .allstar05, .allstar00, .rating1-t, .rating15-t, .rating2-t, .rating25-t, .rating3-t, .rating35-t, .rating4-t, .rating45-t, .rating5-t, .rating-t, .starb ~ .stars5, .starb ~ .stars4, .starb ~ .stars3, .starb ~ .stars2, .starb ~ .stars1, .collectors .stars5, .collectors .stars4, .collectors .stars3, .collectors .stars2, .collectors .stars1{    display: inline-block;
+    zoom: 1;
+    background: url(https://img3.doubanio.com/f/shire/b8f4c3672ef81106701071831e22422a745d3b74/pics/rating_icons/ic_rating_s.png) no-repeat;
+    /*background: -webkit-image-set(url(https://img3.doubanio.com/f/shire/b8f4c3672ef81106701071831e22422a745d3b74/pics/rating_icons/ic_rating_s.png) 1x, url(https://img3.doubanio.com/f/shire/0147ca9efddcac80050854590d26bee587b008df/pics/rating_icons/ic_rating_s@2x.png) 2x) no-repeat;*/
+    /*background: -moz-image-set(url(https://img3.doubanio.com/f/shire/b8f4c3672ef81106701071831e22422a745d3b74/pics/rating_icons/ic_rating_s.png) 1x, url(https://img3.doubanio.com/f/shire/0147ca9efddcac80050854590d26bee587b008df/pics/rating_icons/ic_rating_s@2x.png) 2x) no-repeat;*/
+    /*background: -o-image-set(url(https://img3.doubanio.com/f/shire/b8f4c3672ef81106701071831e22422a745d3b74/pics/rating_icons/ic_rating_s.png) 1x, url(https://img3.doubanio.com/f/shire/0147ca9efddcac80050854590d26bee587b008df/pics/rating_icons/ic_rating_s@2x.png) 2x) no-repeat;*/
+    /*background: -ms-image-set(url(https://img3.doubanio.com/f/shire/b8f4c3672ef81106701071831e22422a745d3b74/pics/rating_icons/ic_rating_s.png) 1x, url(https://img3.doubanio.com/f/shire/0147ca9efddcac80050854590d26bee587b008df/pics/rating_icons/ic_rating_s@2x.png) 2x) no-repeat;*/
+    width: 55px;
+    height: 11px;
+    margin: 0 3px 0 0;
+    overflow: hidden;}
+.star .rating_num{color:#e09015;padding:0 5px 0 0;}
+.rating_nums, .rating_num{font-size:12px;}
+.star span{color:#666;font-size:13px;}
+.info p{margin: 10px 0;color: #666;}
+.quote{overflow: hidden;padding: 0 24px 5px 15px;margin: 8px 0 0 26px;
+    background: url(https://img3.doubanio.com/f/shire/bea926c649298e9bd59b7e8897f0c34b252a57b9/pics/quotel.png) no-repeat left 4px;
+    width: auto;
+    word-wrap: break-word;}
+.quote span.inq{color: #666;font-family: 'Microsoft YaHei';}
+.quote span.inq{display: inline;
+    background: url(https://img3.doubanio.com/f/shire/61a8c24be622b61a59a8c3445dec15f2ce590e9b/pics/quoter.png) no-repeat right bottom;
+    color: #333;
+    padding-right: 15px;
+    display: inline-block;
+    word-break: break-all;}
+/*分页*/
+.paginator{font: 14px Arial, Helvetica, sans-serif;
+    color: #aaa;
+    margin: 20px 0;
+    line-height: 150%;
+    text-align: center;}
+.paginator .prev{margin-right: 20px;}
+.paginator .thispage{color: #fff;background: #83BF73;}
+.paginator a, .thispage, .break{padding: 0px 4px;margin: 2px;}
+.paginator .next{margin-left: 20px;}
+.paginator .count{margin-left: 20px;font-size: 14px;}
+/*侧栏*/
+.grid-16-8 .aside{width: 300px;float: right;}
+.pl{font: 12px Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    color: #666666;}
+
